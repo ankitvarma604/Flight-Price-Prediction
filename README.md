@@ -1,5 +1,7 @@
 ## Purpose of the Project
 Main purpose of this project is to Predict the price of flight depending on the different features. From data cleaning, feature engineering, EDA to creating best model based on optimum features this project takes care of everything
+## Data Overview
+In this dataset price of different flights are mentioned depending on the other fearutes in the Datasets 
 ### Feature Engineering
 There were different feature which had to be manipulated for better analysis, for example taking care of Duration Feature and converting it into int type using for loop and other such instances
 - Creating new features after manipulating departure, arrival and duration hours for better analysis.
