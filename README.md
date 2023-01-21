@@ -24,10 +24,18 @@ Final Output
 
 ![image](https://user-images.githubusercontent.com/66120808/213873936-ba429d29-7259-44ff-8a50-793e80e997f4.png)
 
-
+### Categorical Values Imputation
+- For the categorical features like "Airlines", "Source" etc one hot encoding was done while droping one of the columns
+- Values for features like "Total Stop" was encoded to be converted into numerical formart
+- 
 ## EDA
 After Data Cleaing and Feature Engineering, EDA has been done of the data generate better understanding from the Visulizations.
+
 - Mean price of the flight depending on different aspects like Airlines, Flight Timing, Duration, Source etc
+
+![image](https://user-images.githubusercontent.com/66120808/213874295-400f4280-683c-492a-8779-e9786f923a30.png)
+![image](https://user-images.githubusercontent.com/66120808/213874307-d6818677-8901-4d22-8e05-9dce451c5ff1.png)
+
 - All the major coorelated Matrixs which influences the price of a flight.
 - Fligh count depending on Departure Hour
 ## Machine Learning Model Development.
