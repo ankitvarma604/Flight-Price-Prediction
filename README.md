@@ -39,8 +39,18 @@ After Data Cleaing and Feature Engineering, EDA has been done of the data genera
 
 - All the major coorelated Matrixs which influences the price of a flight.
   Coorelation has been findind between all the featues in the dataset in comparison with our dependent variable
-- Feature Importance
+- Feature Importance.
+  Here in this step feature important of all the independent feaures were calculated and visulized below. It will tell us mode about the top features which highly imfulence the dependent variabels.
+  ![image](https://user-images.githubusercontent.com/66120808/213874678-785a6f9f-42be-4a17-b4fc-3bec0d66b941.png)
+
 ## Machine Learning Model Development.
 In this step I have treid to Find the best Machine Learning Algoritihm that can be use for creating the model and then found there best paramenrets using Hyperparameter Tuning.
-- Found the best model by using some Regression Models and Comparing there scores using R2_Score and accuracy score and other such criteria.
-- Created a pickle file for later phase in the pipelines.
+
+Hyperparameter tuning is very critical to find the optimum hyperparameter to get the best results while developing the model. It not done correctly, it can give undesired values whihc will hamper the output of our model, hence our model will not be much credible.
+
+![image](https://user-images.githubusercontent.com/66120808/213874892-c93e81ec-e8ac-4a91-a06c-ccd6b979f837.png)
+
+After finding the optimum hyperparameter, model was fine tuned and some of the metrics which were coming were as below
+MAE  :- 1167.80
+MSE  :- 4065123.75
+RMSE :- 2016.21
