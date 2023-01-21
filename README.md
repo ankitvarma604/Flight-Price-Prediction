@@ -16,3 +16,4 @@ After Data Cleaing and Feature Engineering, EDA has been done of the data genera
 In this step I have treid to Find the best Machine Learning Algoritihm that can be use for creating the model and then found there best paramenrets using Hyperparameter Tuning.
 - Found the best model by using some Regression Models and Comparing there scores using R2_Score and accuracy score and other such criteria.
 - Created a pickle file for later phase in the pipelines.
+![WIN_20221207_22_00_20_Pro](https://user-images.githubusercontent.com/66120808/213873230-b6cd2ba4-0503-49a6-93ed-0f513ac6be16.jpg)
