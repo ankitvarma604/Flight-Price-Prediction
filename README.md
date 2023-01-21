@@ -31,13 +31,15 @@ Final Output
 ## EDA
 After Data Cleaing and Feature Engineering, EDA has been done of the data generate better understanding from the Visulizations.
 
-- Mean price of the flight depending on different aspects like Airlines, Flight Timing, Duration, Source etc
+- Mean price
+  Mean price of the flight depending on different aspects like Airlines, Flight Timing, Duration, Source etc. Below pictures shows mean price depending on the features   mentioned below
 
 ![image](https://user-images.githubusercontent.com/66120808/213874295-400f4280-683c-492a-8779-e9786f923a30.png)
 ![image](https://user-images.githubusercontent.com/66120808/213874307-d6818677-8901-4d22-8e05-9dce451c5ff1.png)
 
 - All the major coorelated Matrixs which influences the price of a flight.
-- Fligh count depending on Departure Hour
+  Coorelation has been findind between all the featues in the dataset in comparison with our dependent variable
+- Feature Importance
 ## Machine Learning Model Development.
 In this step I have treid to Find the best Machine Learning Algoritihm that can be use for creating the model and then found there best paramenrets using Hyperparameter Tuning.
 - Found the best model by using some Regression Models and Comparing there scores using R2_Score and accuracy score and other such criteria.
