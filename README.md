@@ -1,7 +1,9 @@
 ## Purpose of the Project
-Main purpose of this project is to Predict the price of flight depending on the different features. From data cleaning, feature engineering, EDA to creating best model based on optimum features this project takes care of everything
+Main purpose of this project is to Predict the price of flight depending on the different features. From data cleaning, feature engineering, EDA to creating best model based on optimum features this project takes care of everything.
 ## Data Overview
-In this dataset price of different flights are mentioned depending on the other fearutes in the Datasets 
+In this dataset price of different flights are mentioned depending on the other fearutes in the Datasets. Apart from that some of the other important variables are as below
+![image](https://user-images.githubusercontent.com/66120808/213873435-11f5f9e9-ba9f-40d7-aad1-bf419063b93f.png)
+
 ## Feature Engineering
 There were different feature which had to be manipulated for better analysis, for example taking care of Duration Feature and converting it into int type using for loop and other such instances
 - Creating new features after manipulating departure, arrival and duration hours for better analysis.
@@ -16,4 +18,3 @@ After Data Cleaing and Feature Engineering, EDA has been done of the data genera
 In this step I have treid to Find the best Machine Learning Algoritihm that can be use for creating the model and then found there best paramenrets using Hyperparameter Tuning.
 - Found the best model by using some Regression Models and Comparing there scores using R2_Score and accuracy score and other such criteria.
 - Created a pickle file for later phase in the pipelines.
-![WIN_20221207_22_00_20_Pro](https://user-images.githubusercontent.com/66120808/213873230-b6cd2ba4-0503-49a6-93ed-0f513ac6be16.jpg)
